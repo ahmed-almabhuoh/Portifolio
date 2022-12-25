@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgroundColor: #4E5565;
+}
+
+body,
+html {
+    width: 100%;
+    height: 432vh;
+}
+
+.parent {
+    width: inherit;
+    height: inherit;
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}

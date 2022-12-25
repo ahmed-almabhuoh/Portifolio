@@ -1,0 +1,60 @@
+:root {
+    --parentColor: #1D262F;
+    --backgroundColor: #4E5565;
+    --nameColor: #9F702A;
+}
+
+.fourth-section {
+    background-color: #fff;
+    width: 95%;
+    height: 95vh;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    /* position: relative; */
+}
+
+.fourth-section h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--parentColor);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 5px var(--backgroundColor);
+}
+
+.fourth-section .project {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.fourth-section .project .info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.fourth-section .project .info .header {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--nameColor);
+    padding-bottom: 25px;
+}
+
+.fourth-section .project .info .body {
+    font-size: 20px;
+    color: var(--backgroundColor);
+    font-weight: bold;
+    text-align: center;
+}
+
+.fourth-section .project .icon img {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}

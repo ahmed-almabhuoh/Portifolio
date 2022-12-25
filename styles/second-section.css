@@ -1,0 +1,107 @@
+:root {
+    --parentColor: #1D262F;
+    --backgroundColor: #4E5565;
+    --nameColor: #9F702A;
+}
+
+.second-section {
+    background-color: #fff;
+    width: 95%;
+    height: 95vh;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.second-section h1 {
+    color: var(--parentColor);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 120px;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+}
+
+.second-section .line {
+    width: 890px;
+    height: 1px;
+    background-color: var(--parentColor);
+}
+
+
+.second-section h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    line-height: 50px;
+    color: var(--nameColor);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 5px var(--nameColor);
+}
+
+.second-section .specialization {
+    color: var(--backgroundColor);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.second-section .specialization p {
+    margin: 15px 0;
+    text-shadow: 1px 1px 5px var(--backgroundColor);
+}
+
+.second-section .desc {
+    width: 60%;
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.second-section .circular {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 350px;
+    right: 150px;
+}
+
+.second-section .circular div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.second-section .circular .first {
+    background-color: var(--backgroundColor);
+}
+
+.second-section .circular .second {
+    background-color: var(--parentColor);
+}
+
+.second-section .circular .third {
+    background-color: var(--nameColor);
+}
