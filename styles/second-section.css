@@ -1,8 +1,4 @@
-:root {
-    --parentColor: #1D262F;
-    --backgroundColor: #4E5565;
-    --nameColor: #9F702A;
-}
+@import url('vars.css');
 
 .second-section {
     background-color: #fff;
