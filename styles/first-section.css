@@ -1,214 +1,62 @@
-@import url("vars.css");
+@import url('vars.css');
+
 
 .first-section {
-  background-color: var(--parentColor);
-  width: 95%;
-  height: 95vh;
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-  padding-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
+    background-color: var(--parentColor);
+    width: 95%;
+    height: 95vh;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .first-section h1 {
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-size: 120px;
-  letter-spacing: 15px;
-  word-spacing: 20px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 120px;
+    letter-spacing: 15px;
+    word-spacing: 20px;
 }
 
 .first-section h3 {
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  word-spacing: 10px;
-  line-height: 50px;
-  color: var(--nameColor);
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
-  text-shadow: 1px 1px 5px var(--nameColor);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    line-height: 50px;
+    color: var(--nameColor);
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 5px var(--nameColor);
 }
 
 .first-section .line {
-  width: 890px;
-  height: 1px;
-  background-color: #fff;
+    width: 890px;
+    height: 1px;
+    background-color: #fff;
 }
 
 .first-section .info {
-  position: absolute;
-  bottom: 0;
-  width: inherit;
-  color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 60px 60px 0;
-  /* Font Styles */
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 15px;
-  letter-spacing: 3px;
-  word-spacing: 4px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .first-section {
-    height: 70vh;
-  }
-
-  .first-section h1 {
-    font-size: 35px;
-    letter-spacing: 5px;
-    word-spacing: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section h3 {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    word-spacing: 5px;
-    line-height: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section .line {
-    width: 65%;
-  }
-
-  .first-section .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* Font Styles */
-    font-size: 10px;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-  }
-}
-
-/* Small devices (tablets, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .first-section {
-    height: 70vh;
-  }
-
-  .first-section h1 {
-    font-size: 55px;
-    letter-spacing: 6px;
-    word-spacing: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section h3 {
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    word-spacing: 5px;
-    line-height: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section .line {
-    width: 65%;
-  }
-
-  .first-section .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /* Font Styles */
-    font-size: 12px;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-  }
-}
-
-/* Medium devices (desktops, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .first-section {
-    height: 80vh;
-  }
-
-  .first-section h1 {
-    font-size: 80px;
-    letter-spacing: 6px;
-    word-spacing: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section h3 {
-    font-size: 18px;
-    letter-spacing: 4px;
-    word-spacing: 5px;
-    line-height: 40px;
-    word-wrap: break-word;
-  }
-
-  .first-section .line {
-    width: 65%;
-  }
-
-  .first-section .info {
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 60px 60px 0;
     /* Font Styles */
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
     font-size: 15px;
     letter-spacing: 3px;
     word-spacing: 4px;
-  }
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
-/* Large devices (large desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .first-section {
-    height: 85vh;
-  }
-
-  .first-section h1 {
-    font-size: 110px;
-    letter-spacing: 8px;
-    word-spacing: 20px;
-    word-wrap: break-word;
-  }
-
-  .first-section h3 {
-    font-size: 18px;
-    letter-spacing: 4px;
-    word-spacing: 5px;
-    line-height: 40px;
-    word-wrap: break-word;
-  }
-
-  .first-section .line {
-    width: 70%;
-  }
-
-  .first-section .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    /* Font Styles */
-    font-size: 15px;
-    letter-spacing: 3px;
-    word-spacing: 4px;
-  }
-}
-
-/* Extra large devices (extra large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .first-section {
-        height: 95vh;
-      }
- }
