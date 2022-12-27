@@ -1,90 +1,90 @@
-@import url('vars.css');
+@import url("vars.css");
 
 .third-section {
-    background-color: var(--parentColor);
-    width: 95%;
-    height: 95vh;
-    border-bottom: 1px solid #fff;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  background-color: var(--parentColor);
+  width: 95%;
+  height: 145vh;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .third-section .second {
-    width: 2px;
-    height: 80%;
-    background-color: #fff;
+  width: 2px;
+  height: 80%;
+  background-color: #fff;
 }
 
 .third-section .first {
-    width: 45%;
-    height: 80%;
-    background-image: url('../imgs/148393647_751780412405793_7345631521948425057_n.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 5px;
+  width: 45%;
+  height: 80%;
+  background-image: url("../imgs/148393647_751780412405793_7345631521948425057_n.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
 }
 
 .third-section .third {
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .third-section .third .third-first {
-    display: flex;
+  display: flex;
 }
 
 .third-section .third .third-first div {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    margin: 15px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .third-section .third .third-first .third-first-circle {
-    background-color: var(--backgroundColor);
+  background-color: var(--backgroundColor);
 }
 
 .third-section .third .third-first .third-second-circle {
-    background-color: var(--parentColor);
+  background-color: var(--parentColor);
 }
 
 .third-section .third .third-first .third-third-circle {
-    background-color: var(--nameColor);
+  background-color: var(--nameColor);
 }
 
 .third-second {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .title {
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px 5px var(--nameColor);
-    border-bottom: 2px dashed var(--backgroundColor);
-    width: fit-content;
-    position: relative;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px var(--nameColor);
+  border-bottom: 2px dashed var(--backgroundColor);
+  width: fit-content;
+  position: relative;
 }
 
 /* .title::after {
@@ -104,30 +104,30 @@
 /* }  */
 
 .title::before {
-    content: '';
-    border: 5px solid var(--nameColor);
-    border-radius: 50%;
-    position: absolute;
-    top: 7px;
-    left: -15px;
+  content: "";
+  border: 5px solid var(--nameColor);
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: -15px;
 }
 
 .third-second ul {
-    list-style-type: none;
-    color: #fff;
-    margin: 15px;
+  list-style-type: none;
+  color: #fff;
+  margin: 15px;
 }
 
 .third-second ul li {
-    padding: 5px;
+  padding: 5px;
 }
 
 .third-second ul li a {
-    color: #fff;
-    margin: 15px;
-    text-decoration: none;
+  color: #fff;
+  margin: 15px;
+  text-decoration: none;
 }
 
 #account-links {
-    margin-left: -5px;
+  margin-left: -5px;
 }
